@@ -13,29 +13,32 @@
 
   .text-outline {
     text-shadow: 
-      -2px -2px 0 #FF0000,  
-       2px -2px 0 #FF0000,
-      -2px  2px 0 #FF0000,
-       2px  2px 0 #FF0000;
+      -2px -2px 0 #800000,  
+       2px -2px 0 #800000,
+      -2px  2px 0 #800000,
+       2px  2px 0 #800000;
+  }
+  
+  .bg-grid-pattern {
+    background-image: radial-gradient(#4a1010 1px, transparent 1px);
+    background-size: 30px 30px;
   }
 }
 
 body {
-  @apply bg-claw-bg text-white font-wonky;
+  @apply bg-claw-bg text-claw-text font-wonky;
   background-image: radial-gradient(#330000 1px, transparent 1px);
-  background-size: 20px 20px;
+  background-size: 30px 30px;
 }
 
 /* Custom scrollbar to look drawn */
 ::-webkit-scrollbar {
-  width: 12px;
+  width: 10px;
 }
 ::-webkit-scrollbar-track {
-  background: #000000; 
-  border-left: 2px solid #FF0000;
+  background: #0f0505; 
 }
 ::-webkit-scrollbar-thumb {
-  background: #FF0000; 
-  border: 2px solid #000000;
-  border-radius: 10px;
+  background: #ff4d4d; 
+  border-radius: 5px;
 }

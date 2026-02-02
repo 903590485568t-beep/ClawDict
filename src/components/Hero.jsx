@@ -24,7 +24,7 @@ const Hero = ({ onBetClick }) => {
         <div className="flex flex-col sm:flex-row gap-4">
           <button 
             onClick={onBetClick}
-            className="bg-claw-primary text-white text-xl border-2 border-red-600 px-8 py-3 wonky-border hover:scale-105 transition-transform shadow-[4px_4px_0px_0px_#ff0000] active:shadow-none active:translate-x-[4px] active:translate-y-[4px] flex items-center justify-center gap-2"
+            className="bg-claw-primary text-white text-xl border-2 border-red-900 px-8 py-3 wonky-border hover:scale-105 transition-transform shadow-[4px_4px_0px_0px_#800000] active:shadow-none active:translate-x-[4px] active:translate-y-[4px] flex items-center justify-center gap-2"
           >
             <span>🦞</span> Place a Bet
           </button>
@@ -32,7 +32,7 @@ const Hero = ({ onBetClick }) => {
             href="https://pump.fun/" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="bg-red-900 text-white text-xl border-2 border-red-600 px-8 py-3 wonky-border hover:rotate-2 transition-transform shadow-[4px_4px_0px_0px_#ff0000] active:shadow-none active:translate-x-[4px] active:translate-y-[4px] font-bold flex items-center justify-center gap-2 no-underline"
+            className="bg-transparent text-claw-primary text-xl border-2 border-claw-primary px-8 py-3 wonky-border hover:bg-claw-primary/10 transition-all shadow-[4px_4px_0px_0px_#800000] active:shadow-none active:translate-x-[4px] active:translate-y-[4px] font-bold flex items-center justify-center gap-2 no-underline"
           >
             <span>💸</span> Buy $ClawDict
           </a>
