@@ -13,16 +13,16 @@
 
   .text-outline {
     text-shadow: 
-      -2px -2px 0 #000,  
-       2px -2px 0 #000,
-      -2px  2px 0 #000,
-       2px  2px 0 #000;
+      -2px -2px 0 #FF0000,  
+       2px -2px 0 #FF0000,
+      -2px  2px 0 #FF0000,
+       2px  2px 0 #FF0000;
   }
 }
 
 body {
-  @apply bg-claw-bg text-claw-border font-wonky;
-  background-image: radial-gradient(#e5e5f7 1px, transparent 1px);
+  @apply bg-claw-bg text-white font-wonky;
+  background-image: radial-gradient(#330000 1px, transparent 1px);
   background-size: 20px 20px;
 }
 
@@ -31,11 +31,11 @@ body {
   width: 12px;
 }
 ::-webkit-scrollbar-track {
-  background: #FFFBF0; 
-  border-left: 2px solid #000;
+  background: #000000; 
+  border-left: 2px solid #FF0000;
 }
 ::-webkit-scrollbar-thumb {
-  background: #FF6B6B; 
-  border: 2px solid #000;
+  background: #FF0000; 
+  border: 2px solid #000000;
   border-radius: 10px;
 }

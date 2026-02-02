@@ -7,7 +7,7 @@ export const markets = [
     endDate: "2024-05-20",
     image: "💰",
     chance: 12,
-    color: "bg-yellow-200"
+    color: "bg-yellow-900"
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ export const markets = [
     endDate: "2024-06-01",
     image: "🥪",
     chance: 85,
-    color: "bg-green-200"
+    color: "bg-green-900"
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ export const markets = [
     endDate: "2025-01-01",
     image: "🐕",
     chance: 4,
-    color: "bg-orange-200"
+    color: "bg-orange-900"
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ export const markets = [
     endDate: "2024-12-31",
     image: "🦞",
     chance: 99,
-    color: "bg-pink-200"
+    color: "bg-pink-900"
   },
   {
     id: 5,
@@ -47,7 +47,7 @@ export const markets = [
     endDate: "2024-05-18",
     image: "🔌",
     chance: 50,
-    color: "bg-purple-200"
+    color: "bg-purple-900"
   },
   {
     id: 6,
@@ -57,7 +57,7 @@ export const markets = [
     endDate: "2025-01-01",
     image: "⚖️",
     chance: 15,
-    color: "bg-blue-200"
+    color: "bg-blue-900"
   },
   {
     id: 7,
@@ -67,7 +67,7 @@ export const markets = [
     endDate: "2024-05-25",
     image: "🔶",
     chance: 69,
-    color: "bg-yellow-300"
+    color: "bg-yellow-950"
   },
   {
     id: 8,
@@ -77,7 +77,7 @@ export const markets = [
     endDate: "2024-05-19",
     image: "🖨️",
     chance: 92,
-    color: "bg-green-300"
+    color: "bg-green-900"
   },
   {
     id: 9,
@@ -87,7 +87,7 @@ export const markets = [
     endDate: "2024-09-30",
     image: "🖼️",
     chance: 33,
-    color: "bg-indigo-200"
+    color: "bg-indigo-900"
   },
   {
     id: 10,
@@ -97,7 +97,7 @@ export const markets = [
     endDate: "2024-06-15",
     image: "💇‍♂️",
     chance: 45,
-    color: "bg-gray-300"
+    color: "bg-gray-800"
   },
   {
     id: 11,
@@ -107,7 +107,7 @@ export const markets = [
     endDate: "2024-12-31",
     image: "👔",
     chance: 20,
-    color: "bg-red-200"
+    color: "bg-red-900"
   },
   {
     id: 12,
@@ -117,6 +117,6 @@ export const markets = [
     endDate: "2024-12-31",
     image: "🐸",
     chance: 1,
-    color: "bg-green-400"
+    color: "bg-green-800"
   }
 ];

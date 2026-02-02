@@ -10,10 +10,11 @@ export default {
         'wonky': ['"Gochi Hand"', 'cursive'],
       },
       colors: {
-        'claw-bg': '#FFFBF0', // Paper-ish
-        'claw-primary': '#FF6B6B', // Shrimp pink
-        'claw-secondary': '#4ECDC4', // Teal
-        'claw-border': '#2C3E50', // Ink color
+        'claw-bg': '#000000', // Black
+        'claw-primary': '#FF0000', // Bright Red
+        'claw-secondary': '#800000', // Dark Red
+        'claw-border': '#FF0000', // Red border
+        'claw-text': '#FFFFFF', // White text
       }
     },
   },

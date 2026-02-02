@@ -14,10 +14,10 @@ function App() {
   return (
     <div className="min-h-screen pb-20 relative overflow-hidden">
       {/* Background decoration elements */}
-      <div className="fixed top-20 left-10 text-8xl opacity-5 pointer-events-none -rotate-12 z-0 select-none">🦞</div>
-      <div className="fixed bottom-40 right-10 text-8xl opacity-5 pointer-events-none rotate-12 z-0 select-none">🌊</div>
-      <div className="fixed top-1/3 right-1/4 text-6xl opacity-5 pointer-events-none rotate-45 z-0 select-none">✂️</div>
-      <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-9xl opacity-5 pointer-events-none z-0 select-none">🐚</div>
+      <div className="fixed top-20 left-10 text-8xl opacity-5 pointer-events-none -rotate-12 z-0 select-none text-red-600">🦞</div>
+      <div className="fixed bottom-40 right-10 text-8xl opacity-5 pointer-events-none rotate-12 z-0 select-none text-red-600">🌊</div>
+      <div className="fixed top-1/3 right-1/4 text-6xl opacity-5 pointer-events-none rotate-45 z-0 select-none text-red-600">✂️</div>
+      <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-9xl opacity-5 pointer-events-none z-0 select-none text-red-600">🐚</div>
 
       <Header />
       
@@ -27,11 +27,11 @@ function App() {
         {/* Markets Section */}
         <section ref={marketsRef} className="mt-12 scroll-mt-24">
           <div className="flex flex-col md:flex-row items-center gap-4 mb-8">
-            <h2 className="text-4xl font-bold transform -rotate-2 decoration-wavy underline decoration-claw-secondary decoration-4">
+            <h2 className="text-4xl font-bold transform -rotate-2 decoration-wavy underline decoration-red-600 decoration-4 text-white">
               Live Events
             </h2>
-            <span className="text-sm bg-black text-white px-2 py-1 rotate-3 font-mono">HOT</span>
-            <span className="hidden md:inline text-xl ml-auto animate-pulse">🦞 Claw is watching...</span>
+            <span className="text-sm bg-red-600 text-white px-2 py-1 rotate-3 font-mono border border-white">HOT</span>
+            <span className="hidden md:inline text-xl ml-auto animate-pulse text-red-400">🦞 Claw is watching...</span>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 gap-y-12">
@@ -42,11 +42,11 @@ function App() {
         </section>
 
         {/* Footer / Disclaimer */}
-        <section className="mt-20 text-center border-t-4 border-black pt-8 border-dashed bg-white/50 p-8 wonky-border">
-            <p className="text-xl font-bold">
+        <section className="mt-20 text-center border-t-4 border-red-600 pt-8 border-dashed bg-black/50 p-8 wonky-border">
+            <p className="text-xl font-bold text-white">
                 🦞 ClawDict &copy; 2024. Not financial advice. 
             </p>
-            <p className="text-sm mt-2 opacity-70">
+            <p className="text-sm mt-2 opacity-70 text-gray-400">
                 We are just lobsters in the boiling pot of crypto.
             </p>
             <div className="flex justify-center gap-4 mt-4 opacity-50 text-2xl">
