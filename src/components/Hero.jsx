@@ -36,7 +36,32 @@ const Hero = ({ onBetClick }) => {
           >
             <span>💸</span> Buy $ClawDict
           </a>
+          <a 
+            href="https://x.com/ClawDictFun" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="bg-black text-white text-xl border-2 border-claw-primary px-8 py-3 wonky-border hover:scale-105 transition-transform shadow-[4px_4px_0px_0px_#800000] active:shadow-none active:translate-x-[4px] active:translate-y-[4px] font-bold flex items-center justify-center gap-2 no-underline"
+          >
+            <span>🐦</span> Twitter
+          </a>
         </div>
+        
+        {/* Token Stats / Growth References */}
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 border-2 border-red-900/50 p-4 wonky-border bg-black/20 backdrop-blur-sm mt-4">
+           <div className="text-center">
+             <div className="text-xs text-gray-400 uppercase font-bold">Bonding Curve</div>
+             <div className="text-xl md:text-2xl font-black text-green-400">99.9% 🚀</div>
+           </div>
+           <div className="text-center">
+             <div className="text-xs text-gray-400 uppercase font-bold">Market Cap</div>
+             <div className="text-xl md:text-2xl font-black text-claw-primary">$1,000,000</div>
+           </div>
+           <div className="text-center col-span-2 md:col-span-1">
+             <div className="text-xs text-gray-400 uppercase font-bold">Holders</div>
+             <div className="text-xl md:text-2xl font-black text-white">Only Chads</div>
+           </div>
+        </div>
+
         
         {/* Small funny references */}
         <div className="text-sm font-mono opacity-60 rotate-1 text-gray-400">

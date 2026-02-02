@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import MarketCard from './components/MarketCard';
+import ClawClicker from './components/ClawClicker';
 import { markets } from './data/mockMarkets';
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen pb-20 relative overflow-hidden">
+    <div className="min-h-screen pb-32 relative overflow-hidden">
       {/* Background decoration elements */}
       <div className="fixed top-20 left-10 text-8xl opacity-5 pointer-events-none -rotate-12 z-0 select-none text-claw-primary">🦞</div>
       <div className="fixed bottom-40 right-10 text-8xl opacity-5 pointer-events-none rotate-12 z-0 select-none text-claw-primary">🌊</div>
@@ -57,6 +58,8 @@ function App() {
             </div>
         </section>
       </main>
+
+      <ClawClicker />
     </div>
   );
 }
