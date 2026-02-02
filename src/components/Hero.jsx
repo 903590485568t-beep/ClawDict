@@ -46,19 +46,19 @@ const Hero = ({ onBetClick }) => {
           </a>
         </div>
         
-        {/* Token Stats / Growth References */}
+        {/* Token Stats / Growth References - Replaced with Honest Meme Stats */}
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 border-2 border-red-900/50 p-4 wonky-border bg-black/20 backdrop-blur-sm mt-4">
            <div className="text-center">
-             <div className="text-xs text-gray-400 uppercase font-bold">Bonding Curve</div>
-             <div className="text-xl md:text-2xl font-black text-green-400">99.9% 🚀</div>
+             <div className="text-xs text-gray-400 uppercase font-bold">Claw Sharpness</div>
+             <div className="text-xl md:text-2xl font-black text-red-400">Razor ✂️</div>
            </div>
            <div className="text-center">
-             <div className="text-xs text-gray-400 uppercase font-bold">Market Cap</div>
-             <div className="text-xl md:text-2xl font-black text-claw-primary">$1,000,000</div>
+             <div className="text-xs text-gray-400 uppercase font-bold">Vibe Check</div>
+             <div className="text-xl md:text-2xl font-black text-green-400">Passed ✅</div>
            </div>
            <div className="text-center col-span-2 md:col-span-1">
-             <div className="text-xs text-gray-400 uppercase font-bold">Holders</div>
-             <div className="text-xl md:text-2xl font-black text-white">Only Chads</div>
+             <div className="text-xs text-gray-400 uppercase font-bold">Community</div>
+             <div className="text-xl md:text-2xl font-black text-white">Early 🦞</div>
            </div>
         </div>
 
